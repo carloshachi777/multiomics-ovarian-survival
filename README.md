@@ -34,4 +34,42 @@ Steps:
 
 ## 📁 Repository Structure
 
+TCGA-Ovarian-MultiOmics-DeepLearning/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── example/
+│   └── metadata/
+│
+├── notebooks/
+│   └── TCGA_Ovarian_MultiOmics.ipynb
+│
+├── src/
+│   ├── dataloaders/
+│   │   └── multiomics_dataset.py
+│   ├── models/
+│   │   ├── vae_encoder.py
+│   │   ├── vae_decoder.py
+│   │   └── multiomics_classifier.py
+│   ├── training/
+│   │   └── train.py
+│   ├── utils/
+│   │   ├── preprocessing.py
+│   │   ├── integration.py
+│   │   └── visualization.py
+│   └── __init__.py
+│
+├── configs/
+│   └── config.yaml
+│
+├── results/
+│   ├── embeddings/
+│   ├── models/
+│   ├── metrics/
+│   └── figures/
+│
+└── environment.yml
 
