@@ -122,3 +122,18 @@ The notebook includes:
 
 ## 🔧 Installation
 
+
+
+---
+
+## 📝 Citation
+
+If you use this repository, please cite:
+
+Marino et al. (2025) — “Deep Learning for Multi-Omics Integration in Ovarian Cancer”.
+
+---
+
+## 📄 License
+MIT License.
+
