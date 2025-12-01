@@ -74,3 +74,51 @@ TCGA-Ovarian-MultiOmics-DeepLearning/
 │
 └── environment.yml
 ```
+
+
+---
+
+## 🚀 Google Colab Notebook
+
+The main notebook is in:
+
+notebooks/TCGA_Ovarian_MultiOmics.ipynb
+
+
+The notebook includes:
+- Data download
+- Preprocessing + Winsorization
+- Multi-omics integration
+- VAE model training
+- Classification
+- UMAP visualization
+- Saving models + embeddings to `/results.`
+
+---
+
+## 🧬 Model Architecture
+
+### **1. VAE Encoder**
+- 3 omics-specific encoder branches
+- Shared latent space (z)
+
+### **2. VAE Decoder**
+- Reconstruct each omics dataset
+
+### **3. Multi-omics Classifier**
+- Input: latent space (z)
+- Output: subtype/survival class
+
+---
+
+## 📈 Output Examples
+
+- VAE reconstruction loss curves
+- UMAP latent-space visualization
+- ROC curves for classification
+- Feature interaction heatmaps
+
+---
+
+## 🔧 Installation
+
