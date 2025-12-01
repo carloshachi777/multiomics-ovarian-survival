@@ -34,6 +34,7 @@ Steps:
 
 ## 📁 Repository Structure
 
+```text
 TCGA-Ovarian-MultiOmics-DeepLearning/
 │
 ├── README.md
@@ -72,4 +73,4 @@ TCGA-Ovarian-MultiOmics-DeepLearning/
 │   └── figures/
 │
 └── environment.yml
-
+```
