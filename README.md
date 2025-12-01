@@ -1,6 +1,5 @@
 # TCGA-Ovarian-MultiOmics-DeepLearning
-Deep learning pipeline for **multi-omics integration** on **TCGA ovarian cancer (OV)**, inspired by 
-[UNet-LIDC-Segmentation](https://github.com/carloshachi777/UNet-LIDC-Segmentation).
+Deep learning pipeline for **multi-omics integration** on **TCGA ovarian cancer (OV)**
 
 This repository provides:
 - Multi-omics harmonization (RNA-Seq, CNV, methylation)
