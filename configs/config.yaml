@@ -1,0 +1,34 @@
+# configs/config.yaml
+
+paths:
+  # 👉 change these to your real filenames
+  rna_csv: data/processed/tcga_ov_rna.csv
+  cnv_csv: data/processed/tcga_ov_cnv.csv
+  meth_csv: data/processed/tcga_ov_meth.csv
+  labels_csv: data/processed/tcga_ov_labels.csv
+
+  # Where to save models, embeddings, metrics
+  output_dir: results/ovarian_tcga_run1
+
+training:
+  batch_size: 32
+
+  # VAE
+  epochs_vae: 150
+  lr_vae: 0.001
+  beta: 1.0
+
+  # Classifier
+  epochs_clf: 100
+  lr_clf: 0.001
+
+model:
+  latent_dim: 64
+
+split:
+  test_size: 0.2
+  val_size: 0.1
+  random_state: 42
+
+# "cuda" if you want GPU and it’s available, otherwise "cpu"
+device: cuda
